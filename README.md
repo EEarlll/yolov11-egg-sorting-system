@@ -7,21 +7,21 @@ This project is designed for sorting eggs using a YOLOv11-based object detection
 ```
 .gitignore
 dataset/
-	Images1/
-	Images2/
-	telur.v1i.yolov11/
-		data.yaml
-		README.dataset.txt
-		README.roboflow.txt
-		test/
-			images/**
-			labels/
-		train/
-			images/
-			labels/
-		valid/
-			images/
-			labels/
+   Images1/
+   Images2/
+   telur.v1i.yolov11/
+	data.yaml
+	README.dataset.txt
+	README.roboflow.txt
+	test/
+	  images/**
+          labels/
+	train/
+          images/
+          labels/
+	valid/
+	  images/
+	  labels/
 FastSAM-s.pt
 fastSAM.ipynb
 LICENSE
@@ -29,7 +29,7 @@ main.ipynb
 README.md
 requirements.txt
 runs/
-	segment/
+    segment/
 yolo11n-seg.pt
 yolo11s-seg.pt
 ```
@@ -57,7 +57,7 @@ yolo11s-seg.pt
 
 1. Clone the repository:
 	```sh
-	git clone <repository-url>
+	git clone https://github.com/EEarlll/yolov11-egg-sorting-system.git
 	cd yolov11-egg-sorting-system
 	```
 
