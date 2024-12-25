@@ -1,0 +1,13 @@
+train: quality/train/images
+val: quality/valid/images
+test: quality/test/images
+
+nc: 3
+names: ['GradeA', 'GradeB', 'GradeC']
+
+roboflow:
+  workspace: ae-3rclr
+  project: egg-a4tr6-snqnd-fqt73
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ae-3rclr/egg-a4tr6-snqnd-fqt73/dataset/1
