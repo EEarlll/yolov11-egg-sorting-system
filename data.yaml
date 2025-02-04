@@ -1,13 +1,13 @@
-train: quality/train/images
-val: quality/valid/images
-test: quality/test/images
+train: EggCrack/train/images
+val: EggCrack/valid/images
+test: EggCrack/test/images
 
-nc: 3
-names: ['GradeA', 'GradeB', 'GradeC']
+nc: 2
+names: ['Crack', 'Egg']
 
 roboflow:
   workspace: ae-3rclr
-  project: egg-a4tr6-snqnd-fqt73
+  project: egg-crack-detection-ajv0f-ls3uc
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/ae-3rclr/egg-a4tr6-snqnd-fqt73/dataset/1
+  url: https://universe.roboflow.com/ae-3rclr/egg-crack-detection-ajv0f-ls3uc/dataset/1

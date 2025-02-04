@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Crack', 'Egg']
+
+roboflow:
+  workspace: ae-3rclr
+  project: egg-crack-detection-ajv0f-ls3uc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ae-3rclr/egg-crack-detection-ajv0f-ls3uc/dataset/1
